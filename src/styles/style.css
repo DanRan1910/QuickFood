@@ -298,6 +298,7 @@ p{
 /* ______________________________________________________________________________________*/
 
 .say-about{
+    height: 839px;
     margin-top: 160px;
     background-color: #FAFAFA;
 }
@@ -310,6 +311,7 @@ p{
 }
 
 .say-text h2{
+    color: black;
     font-size: 48px;
     margin-bottom: 8px;
 }
@@ -336,6 +338,7 @@ p{
 }
 
 .say-cards-content h3{
+    color: black;
     display: flex;
     justify-content: center;
 }
@@ -362,7 +365,194 @@ p{
 
 
 .AboutUs{
+    display: flex;
+    justify-content: center;
+    gap: 82px;
+    height: 602px;
+}
+
+
+.About-text{
+    padding: 100px 100px;
+}
+
+.About-text h2{
+    color: black;
+    font-size: 48px;
+}
+
+.About-text p{
+    line-height: 1.6;
+    width: 558px;
+    font-size: 18px;
+}
+
+.btnLearnMore{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    width: 157px;
+    height: 53px;
+    border-radius: 10px;
+    background-color: var(--color-primary);
+    text-decoration: none;
+    
     
 }
 
+.btnLearnMore button{
+    font-size: 16px;
+    color: white;
+    background-color: var(--color-primary);
+    text-decoration: none;
+}
+
+
+
+
+.About-image{
+    padding: 100px 100px;
+}
+.About-image img{
+    width: 600px;
+    height: 402px;
+}
+
+/* ______________________________________________________________________________________*/
+/* ______________________________________________________________________________________*/
+
+.Subscribe{
+    height: 424px;
+    padding: 100px 417px;
+    margin-top: 60px;
+    background-color: #FAFAFA;
+}
+
+
+.Sub-content h2{
+    color: black;
+    text-align: center;
+    font-size: 48px;
+}
+
+.Sub-content p{
+    text-align: center;
+    margin-left: 116px;
+    margin-top: 8px;
+    font-size: 18px;
+    line-height: auto;
+}
+
+.Sub-Input{
+    display: flex;
+    margin-top: 60px;
+    width: 710px;
+    height: 77px;
+    border-radius: 8px;
+    border: 2px solid #C1C1C1;
+    background-color: white;
+}
+
+.Sub-Input ::placeholder{
+    padding: 28px 24px;
+    font-size: 18px;
+    color: black;
+}
+
+.Sub-Input input{
+    width: 233px;
+    height: 20px;
+    margin-top: 28px;
+}
+
+.btnSub{
+    display: flex;
+    justify-content: center;
+    width: 174px;
+    height: 64px;
+    background-color: var(--color-primary);
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 294px;
+    margin-top: 8px;
+}
+
+.btnSub button{
+    font-size: 24px;
+    color: white;
+    background-color: var(--color-primary);
+    text-decoration: none;
+}
+
+
+
+
+/* ______________________________________________________________________________________*/
+/* ______________________________________________________________________________________*/
+
+
+
+footer{
+    background-color: var(--color-primary);
+}
+
+
+.footer-content{
+    padding: 100px 100px;
+    
+
+}
+
+.img2{
+    margin-top: 24px;
+}
+
+
+.footer-navegation{
+    padding: 0 416px;
+    display: flex;
+    gap: 40px;
+    width: 923px;
+    height: 178px;
+
+}
+
+.navegation-footer{
+    width: 281px;
+    margin-top: -94px;
+    text-decoration: none;
+}
+
+.navegation-footer li{
+    color: white;
+    margin-top: 16px;
+    list-style: none;
+}
+
+.navegation-footer a{
+    color: white;
+    margin-top: 16px;
+    text-decoration: none;
+}
+
+
+.footer-finaly{
+    width: 1240px;
+}
+
+.footer-finaly p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 453px;
+    color: white;
+}
+
+.linha{
+    margin-bottom: -26px;
+    padding: 1px 623px;
+    color: white;
+    background-color: white;
+}
 
